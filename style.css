@@ -1,0 +1,139 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 1s;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    display: block;
+    margin: 8px;
+    background-color: rgb(255, 235, 247);
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    clear: both;
+    margin: auto;
+    max-width: 900px;
+    padding-bottom: 2.5rem;
+    /*display: block;*/
+}
+
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+}
+
+h3{
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+.subhero {
+    max-width: 100%;
+}
+
+.float-left {
+    float: left;
+}
+
+.column {
+    width: 50%;
+}
+
+.clear-bottom {
+    clear: both;
+    padding-bottom: 2.5rem;
+}
+
+footer {
+    margin-top: -2rem;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    padding: 2rem;
+    clear: both;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(183, 142, 255, 0.8);
+}
+
+
+
+
+.avatar:hover{
+    width: 20%;
+    transition: 1s;
+}
+
+
+
+nav ul li{
+    list-style: none;
+    float: left;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.grid-item{
+    background-color:cadetblue;
+    text-align: center;
+}
+
+.item-1{
+    grid-column: 1/3;
+}
+
+.item-2{
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.item-3{
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.item-4{
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.item-5{
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+
+.item-6{
+    grid-column: 1/3;
+}
+
+.item-7{
+    grid-column: 3/4;
+    grid-row-start: 1;
+    grid-row-end: 6; 
+}
