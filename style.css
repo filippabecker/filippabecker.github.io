@@ -90,6 +90,10 @@ nav ul li{
     float: left;
 }
 
+.backLink{
+    text-align: center;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: 200px 200px 200px;
